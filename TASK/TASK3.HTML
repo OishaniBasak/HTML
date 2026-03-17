@@ -11,22 +11,28 @@
 
             body{
                 font-family: Arial;
-                background:#b4a343;
+                background:#E0D48A;
                 margin:0;
             }
 
+            .wrapper{
+                margin: 10px auto;
+                width: 1100px;
+                height: auto;
+            }
+
             .container{
-                width:1450px;
+                width:1300px;
                 margin:auto;
                 margin-top: 10px;
                 margin-bottom: 8px;
-                background:rgba(209, 209, 116, 0.951);
+                background-image: url('pictures/pbaxk.png');
             }
 
             /* Header */
 
             .header{
-                background:#9bd12f;
+                background-image: url('pictures/banner.png');
                 padding:40px;
                 text-align:right;
                 color:black;
@@ -36,7 +42,7 @@
             .headertext{
                 margin-top: 10px;
                 margin-bottom: 10px;
-                margin-left: 1030px;
+                margin-left: 900px;
                 margin-right: 10px;
                 text-align: left;
             }
@@ -44,15 +50,18 @@
             /* Navigation */
 
             .nav{
-                background:#c1bea5;
+                background:#EAE6CB;
                 padding:10px;
                 text-align:center; 
                 text-decoration-color: blue;
                 display: flex;
                 justify-content: space-between;
-                margin-left: 5px;
-                margin-right: 2px;
-                margin-top: 2px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 8px;
+                border-top: 1px solid grey;
+                border-left: 1px solid grey;
+                border-right: 1px solid grey;
             }
 
             .nav a{
@@ -70,11 +79,17 @@
             /* Sidebar */
 
             .sidebar{
-                width:250px;
+                width:260px;
                 padding:20px;
-                background:rgba(209, 209, 116, 0.951);
+                background-image: url('pictures/pbaxk.png');
+                border-right: 1px solid gray;
             }
 
+            .menu{
+                width : 250px;
+                height: auto;
+                background-color: #F0E8C3;
+            }
             .sidebar ul{
                 padding-left:20px;
             }
@@ -91,21 +106,29 @@
                 display:inline-block;
                 vertical-align:top;
                 margin-right:20px;
+                margin-top: 20px;
             }
 
+            .subs{
+                border-right: 1px solid grey;
+                margin-right: 15px;
+            }
             /* Button */
 
             button{
-                background:#8fcb17;
-                border:2px;
+                background:#BCDB25;
+                border-top:1px solid black;
+                border-bottom:1px solid black;
+                border-right: 1px solid black;
+                border-left: 0px solid black;
                 padding:10px;
             }
 
             .button1{
-                background:#89b432;
+                background:#D2D35E;
                 border:none;
-                padding:3px;
-                width:200px;
+                padding:2px;
+                width:250px;
             }
 
             
@@ -118,14 +141,12 @@
             /* Footer */
 
             .footer{
-                background:#9bd12f;
+                background:#CBDE4E;
                 text-align:center;
                 padding:15px;
                 margin-top:20px;
-            }
-
-            ul1 {
-                padding : 21x;
+                margin-left: 8px;
+                margin-right: 8px;
             }
 
         </style>
@@ -133,57 +154,80 @@
 
     <body>
 
-        
-        <div class="container">
+        <section class = "container">
             <div class="header">
                 <div class = "headertext">
-                <h1>
+                    <font size = 6>
+                    <b>
                     Enter Site Title
-                </h1>
+                    </b>
+                    </font>
                 <p>
                     Enter Site Slogan
                 </p>
                 </div>
             </div>
             
-            <div class="nav">
+            
+            <nav class="nav">
                 <a href="#">Home</a>
                 <a href="#">New Page</a>
                 <a href="#">New Page 2</a>
                 <a href="#">New Page 3</a>
                 <a href="#">New Page 4</a>
                 <a href="#">New Page 5</a>
-            </div>
+            </nav>
 
             <div class="main">
 
                 <div class="sidebar">
-
+                    
                     <div class = "button1">
-                        <h3>
-                            Main Menu
-                        </h3>
-                    </div>
+                        
+                            <p>
 
-                <div class = "ul1">
-                    <ul>
-                        <li><a href="#">Menu Item 1</a></li>
-                        <li><a href="#">Menu Item 2</a></li>
-                        <li><a href="#">Menu Item 3</a></li>
-                        <li><a href="#">Menu Item 4</a></li>
-                        <li><a href="#">Menu Item 5</a></li>
-                        <li><a href="#">Menu Item 6</a></li>
-                        <li><a href="#">Menu Item 7</a></li>
-                        <li><a href="#">Menu Item 8</a></li>
-                    </ul>
-                </div>
+                            </p>
+                            <font size = 6> 
+                                
+                                &#11078 Main Menu
+                                
+                            </font>
+                            <p>
+  
+                            </p>
+                       
+                    </div>
+                    <div class = "menu">
+                        <ul type = square>
+                            
+                            <li><a href="#">Menu Item 1</a></li>
+                            <li><a href="#">Menu Item 2</a></li>
+                            <li><a href="#">Menu Item 3</a></li>
+                            <li><a href="#">Menu Item 4</a></li>
+                            <li><a href="#">Menu Item 5</a></li>
+                            <li><a href="#">Menu Item 6</a></li>
+                            <li><a href="#">Menu Item 7</a></li>
+                            <li><a href="#">Menu Item 8</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                    
 
                 <div class = "button1">
-                    <h3>
-                        Block
-                    </h3>
-                </div>
+                    <p>
 
+                    </p>
+                    <font size = 6>
+                        
+                       &#11078 Block
+                      
+                    </font>
+                    <p>
+
+                    </p>
+                </div>
+                <div class = "menu">
                 <p>
                     Enter block content here...
                 </p>
@@ -191,24 +235,31 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aenean commodo Lorem ipsum dolor sit amet consectetur adipisicing elit. Aenean commodo
                 </p>
-
+                </div>
             </div>
 
             <div class="content">
+                <p>
 
-                <h2>
+
+                 
+                    
+
+                </p>
+                <font size = 6>
                     Gallery
-                </h2>
+                </font>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
                 </p>
 
                 <div class="box">
+                    <div class = "subs">
 
-                    <h2>
+                    <font size = 6>
                         Subscription
-                    </h2>
+                    </font>
 
                     <p>
                         Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ant
@@ -221,14 +272,14 @@
                             </b>
                         </a>
                     </button>
-
+                    </div>
                 </div>
 
                 <div class="box">
 
-                    <h2>
+                    <font size = 6>
                         Other Services
-                    </h2>
+                    </font>
 
                     <p>
                         Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero. sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ant
@@ -247,14 +298,13 @@
                 </div>
 
             </div>
-
         </div>
 
         <div class="footer">
             Copyright © 2014
         </div>
-
+        </main>
     
-
+        </section>
     </body>
 </html>
